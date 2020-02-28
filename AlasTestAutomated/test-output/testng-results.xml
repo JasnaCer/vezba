@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24933" started-at="2020-02-23T18:40:22Z" finished-at="2020-02-23T18:40:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24933" started-at="2020-02-23T18:40:22Z" finished-at="2020-02-23T18:40:47Z">
+      <class name="pac.test.TaskOneTest">
+        <test-method status="PASS" signature="setupSelenium()[pri:0, instance:pac.test.TaskOneTest@573f2bb1]" name="setupSelenium" is-config="true" duration-ms="7435" started-at="2020-02-23T18:40:22Z" finished-at="2020-02-23T18:40:29Z">
+        </test-method> <!-- setupSelenium -->
+        <test-method status="PASS" signature="searchGoToDemoqaPage()[pri:1, instance:pac.test.TaskOneTest@573f2bb1]" name="searchGoToDemoqaPage" duration-ms="9862" started-at="2020-02-23T18:40:29Z" finished-at="2020-02-23T18:40:39Z">
+        </test-method> <!-- searchGoToDemoqaPage -->
+        <test-method status="PASS" signature="droppableTest()[pri:2, instance:pac.test.TaskOneTest@573f2bb1]" name="droppableTest" duration-ms="3340" started-at="2020-02-23T18:40:39Z" finished-at="2020-02-23T18:40:43Z">
+        </test-method> <!-- droppableTest -->
+        <test-method status="PASS" signature="dragAndDrop()[pri:3, instance:pac.test.TaskOneTest@573f2bb1]" name="dragAndDrop" duration-ms="1219" started-at="2020-02-23T18:40:43Z" finished-at="2020-02-23T18:40:44Z">
+        </test-method> <!-- dragAndDrop -->
+        <test-method status="PASS" signature="goTooltipTest()[pri:4, instance:pac.test.TaskOneTest@573f2bb1]" name="goTooltipTest" duration-ms="2126" started-at="2020-02-23T18:40:44Z" finished-at="2020-02-23T18:40:46Z">
+        </test-method> <!-- goTooltipTest -->
+        <test-method status="PASS" signature="popUpTest()[pri:5, instance:pac.test.TaskOneTest@573f2bb1]" name="popUpTest" duration-ms="560" started-at="2020-02-23T18:40:46Z" finished-at="2020-02-23T18:40:46Z">
+        </test-method> <!-- popUpTest -->
+        <test-method status="PASS" signature="closeSelenium()[pri:0, instance:pac.test.TaskOneTest@573f2bb1]" name="closeSelenium" is-config="true" duration-ms="307" started-at="2020-02-23T18:40:46Z" finished-at="2020-02-23T18:40:47Z">
+        </test-method> <!-- closeSelenium -->
+      </class> <!-- pac.test.TaskOneTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

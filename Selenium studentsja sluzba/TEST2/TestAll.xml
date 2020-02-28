@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestZadatak">
+
+	<test name="testzad">
+		<classes>
+			<class name="zadatakTEST2.LoginTestAll" />	
+			<class name="zadatakTEST2.AddNastavnikTest" />	
+			<class name="zadatakTEST2.AddStudent1Test" />	
+			<class name="zadatakTEST2.AddStudent2Test" />   
+			<class name="zadatakTEST2.AddPredmetTest" />   
+			<class name="zadatakTEST2.DeleteDataTest" /> 
+			<class name="zadatakTEST2.LogOutTest" />  
+			
+		
+		</classes>
+	</test>
+</suite>
