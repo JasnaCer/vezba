@@ -45,17 +45,6 @@ public class TaskTwoTest extends BaseTest {
 		String expected = "777";
 		Assert.assertEquals(actual, expected);
 	}
-	@Test
-	public void searchCheesea(){
-		//I call method from googlePage class
-		googlePage.searching("cheesea");
-		//print assertion message
-		System.out.println("There is too much cheese on the internet");
-		//I compare the actual result with the expected result
-		String actual = googlePage.getResult();
-		String expected = "777";
-		Assert.assertEquals(actual, expected);
-	}
 	
 	@AfterClass
 	void closeSelenium() {
